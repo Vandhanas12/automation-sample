@@ -1,0 +1,12 @@
+<suite name="mysuite">
+<test name="mytest">
+<classes>
+<class name="testscripts.BasicAnnotations">
+</class>
+<class name="testscripts.BasicTestCase">
+</class>
+<class name="testscripts.DataProviderTest">
+</class>
+</classes>
+</test>
+</suite>

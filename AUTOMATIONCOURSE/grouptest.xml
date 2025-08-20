@@ -1,0 +1,13 @@
+<suite name="GroupTest">
+<test name="MyGroupTest">
+<groups>
+<run>
+<include name="smoke">
+</include>
+</run>
+</groups>
+<classes>
+<class name="testscripts.BasicTestCase"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,9 @@
+<suite name="ParameterTest">
+<test name="MyParameterTest">
+<parameter name="Pone" value="10"></parameter>
+<parameter name="Ptwo" value="30"></parameter>
+<classes>
+<class name="testScripts.ParameterTest"></class>
+</classes>
+</test>
+</suite>
