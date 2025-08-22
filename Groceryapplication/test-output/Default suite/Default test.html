@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 12 00:07:05 GMT-09:00 2025</td>
+<td>Started on:</td><td>Wed Aug 20 22:31:27 GMT-09:00 2025</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19812 ms)</td>
+<tr><td>Total time:</td><td>35 seconds (35893 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -79,7 +79,8 @@ function toggleAllBoxes() {
 <td title='testscripts.AdminUserTest.verifyNewAdminButton()'><b>verifyNewAdminButton</b><br>Test class: testscripts.AdminUserTest</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;utilities.ExcelUtility.s&quot; is null
 	at utilities.ExcelUtility.getStringData(ExcelUtility.java:23)
-	at testscripts.AdminUserTest.verifyNewAdminButton(AdminUserTest.java:22)
+	at pages.AdminUserSet.userCreationByUsingExcel(AdminUserSet.java:68)
+	at testscripts.AdminUserTest.verifyNewAdminButton(AdminUserTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,10 +109,11 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace653337757", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace653337757'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;utilities.ExcelUtility.s&quot; is null
+</pre></div><a href='#' onClick='toggleBox("stack-trace325725755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace325725755'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;utilities.ExcelUtility.s&quot; is null
 	at utilities.ExcelUtility.getStringData(ExcelUtility.java:23)
-	at testscripts.AdminUserTest.verifyNewAdminButton(AdminUserTest.java:22)
+	at pages.AdminUserSet.userCreationByUsingExcel(AdminUserSet.java:68)
+	at testscripts.AdminUserTest.verifyNewAdminButton(AdminUserTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -141,8 +143,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>2</td>
-<td>testscripts.AdminUserTest@5fe94a96</td></tr>
+<td>12</td>
+<td>testscripts.AdminUserTest@36fc695d</td></tr>
 </table><p>
 </body>
 </html>

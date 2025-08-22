@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T00:07:05 GMT-09:00" name="Default suite" finished-at="2025-08-12T00:07:25 GMT-09:00" duration-ms="19812">
+  <suite started-at="2025-08-20T22:31:27 GMT-09:00" name="Default suite" finished-at="2025-08-20T22:32:03 GMT-09:00" duration-ms="35893">
     <groups>
     </groups>
-    <test started-at="2025-08-12T00:07:05 GMT-09:00" name="Default test" finished-at="2025-08-12T00:07:25 GMT-09:00" duration-ms="19812">
+    <test started-at="2025-08-20T22:31:27 GMT-09:00" name="Default test" finished-at="2025-08-20T22:32:03 GMT-09:00" duration-ms="35893">
       <class name="testscripts.AdminUserTest">
-        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscripts.AdminUserTest@5fe94a96]" started-at="2025-08-12T00:07:05 GMT-09:00" name="initializeBrowser" finished-at="2025-08-12T00:07:21 GMT-09:00" duration-ms="16182" status="PASS">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:testscripts.AdminUserTest@36fc695d]" started-at="2025-08-20T22:31:27 GMT-09:00" name="initializeBrowser" finished-at="2025-08-20T22:31:49 GMT-09:00" duration-ms="22022" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeBrowser -->
-        <test-method signature="verifyNewAdminButton()[pri:0, instance:testscripts.AdminUserTest@5fe94a96]" started-at="2025-08-12T00:07:21 GMT-09:00" name="verifyNewAdminButton" finished-at="2025-08-12T00:07:24 GMT-09:00" duration-ms="2902" status="FAIL">
+        <test-method signature="verifyNewAdminButton()[pri:0, instance:testscripts.AdminUserTest@36fc695d]" started-at="2025-08-20T22:31:49 GMT-09:00" name="verifyNewAdminButton" finished-at="2025-08-20T22:32:02 GMT-09:00" duration-ms="12791" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "utilities.ExcelUtility.s" is null]]>
@@ -19,7 +19,8 @@
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "utilities.ExcelUtility.s" is null
 at utilities.ExcelUtility.getStringData(ExcelUtility.java:23)
-at testscripts.AdminUserTest.verifyNewAdminButton(AdminUserTest.java:22)
+at pages.AdminUserSet.userCreationByUsingExcel(AdminUserSet.java:68)
+at testscripts.AdminUserTest.verifyNewAdminButton(AdminUserTest.java:28)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,7 +55,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewAdminButton -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:testscripts.AdminUserTest@5fe94a96]" started-at="2025-08-12T00:07:24 GMT-09:00" name="driverQuit" finished-at="2025-08-12T00:07:25 GMT-09:00" duration-ms="571" status="PASS">
+        <test-method is-config="true" signature="driverQuit(org.testng.ITestResult)[pri:0, instance:testscripts.AdminUserTest@36fc695d]" started-at="2025-08-20T22:32:02 GMT-09:00" name="driverQuit" finished-at="2025-08-20T22:32:03 GMT-09:00" duration-ms="950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNewAdminButton status=FAILURE method=AdminUserTest.verifyNewAdminButton()[pri:0, instance:testscripts.AdminUserTest@36fc695d] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->

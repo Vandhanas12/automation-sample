@@ -14,7 +14,7 @@ import pages.HomePage;
 import pages.Loginpage;
 
 public class Logintest extends Base {
-  @Test(priority=1,retryAnalyzer = retry.Retry.class)
+  @Test(priority=1)
   public void verifyloginwithcredentials() {
 	  Loginpage login=new Loginpage(driver);
 	  login.enterUsername("carol");

@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import seleniumbasics.Base;
 
+
 public class ManageCategoryPage extends Base{
 	public WebDriver driver;
 	public void AdminUserSet(WebDriver driver)
